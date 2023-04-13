@@ -23,17 +23,42 @@
       </p>
     </div>
   </section>  
-  <form>
-    <div class="form">
-      Valor de <span>a</span>  <input type="text" placeholder="Ex: 1" class="value_a">
-      Valor de <span>b</span>  <input type="text" placeholder="Ex: 8" class="value_b">
-      Valor de <span>c</span>  <input type="text" placeholder="Ex: -9" class="value_c">
-    </div>
-  </form>
-  <div>
-    <button class="btn">Calcular</button>
+  <div class="form">
+    <form>
+      <label>
+        Valor de <span>a</span>:
+        <input 
+          class="value_a"
+          type="number" 
+          placeholder="Ex: 1"  
+          autofocus
+          title="Digite o valor da variável A"
+        >
+      </label>
+      <label>
+        Valor de <span>b</span>:
+        <input 
+          type="number" 
+          placeholder="Ex: 8" 
+          class="value_b" 
+          title="Digite o valor da variável B"
+        >
+      </label>
+      <label>
+        Valor de <span>c</span>:
+        <input 
+          type="number" 
+          placeholder="Ex: -9" 
+          class="value_c" 
+          title="Digite o valor da variável C"
+        >
+      </label>
+      <div>
+        <button class="btn" type="submit">Calcular</button>
+      </div>
+    </form>
   </div>
-  <div class="exit">
+  <div class="data_output">
     <p class="delta">Delta=</p>
     <p class="x_one">X'=</p>
     <p class="x_two">X"=</p>

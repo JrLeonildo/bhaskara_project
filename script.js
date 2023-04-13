@@ -26,6 +26,7 @@ function delta(a, b, c) {
 }
 
 const start = () => {
+  event.preventDefault()
   if(value_A.value==0 && value_B.value==0 && value_C.value==0){
     alert("[ERRO] Verifique os dados e tente novamente")
   }else{

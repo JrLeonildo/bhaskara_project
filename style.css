@@ -11,6 +11,7 @@ body{
   text-align: center;
   background-color: #ececec;
 }
+/*início do header*/
 header{
   font-size: 3rem;
   text-align: center;
@@ -21,23 +22,34 @@ header{
 div{
   margin: 0 auto;
 }
+/*fim do header*/
+
+/*início da section*/
 .warning{
   padding: 60px;
   font-size: 2rem;
 }
+/*fim da section*/
+
+/*início do form*/
 .form{
   font-size: 2rem;
-  padding-top: 90px;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 input{
   padding: 4px;
   cursor: pointer;
+  margin: 0 5px;
+}
+input:hover {
+  box-shadow: 10px 10px 10px #0000007c;
+  transform: scale(1.1);
 }
 span{
   color: red;
 }
 button{
+  margin-top: 80px;
   padding: 5px;
   font-size: 1.5rem;
   background-color: #fff;
@@ -45,9 +57,14 @@ button{
 }
 button:hover{
   background-color: #ff0000;
-  color:#fff
+  color:#fff;
+  box-shadow: 2px 2px 2px #0000007c;  
+  transform: scale(1.1);
 }
-.exit{
+/*fim do form*/
+
+/*início da saída de dados*/
+.data_output{
   display: flex;
   justify-content: center;
   padding: 40px;
@@ -60,3 +77,4 @@ button:hover{
   display: flex;
   border: solid 1.5px #000446;
 }
+/*fim da saída de dados*/
