@@ -31,7 +31,6 @@ const start = () => {
     alert("[ERRO] Verifique os dados e tente novamente")
   }else{
     delta(value_A.value, value_B.value, value_C.value);
-    console.log(value_A)
   }
 }
 
